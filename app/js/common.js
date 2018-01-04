@@ -1,72 +1,72 @@
 $(document).ready(function() {
 
-	// Remove free hosting logo
+  // Remove free hosting logo
 
-	$('[title = "Hosted on free web hosting 000webhost.com. Host your own website for FREE."]').css('display', 'none');
-
-
-	// Mnu show/hide
-
-	function mnuRight() {
-
-		$('.top-nav__burger-btn').click(function() {
-
-			$('.mnu').css('transform', 'translateX(0)');
-
-		});
-
-		$('.mnu__close').click(function() {
-
-			$('.mnu').css('transform', 'translateX(100%)');
-
-		});
-
-		$('.mnu-overlay').click(function() {
-
-			$('.mnu').css('transform', 'translateX(100%)');
-
-		});
-
-	};
-
-	mnuRight();
+  $('[title = "Hosted on free web hosting 000webhost.com. Host your own website for FREE."]').css('display', 'none');
 
 
-	// Smooth scroll
+  // Mnu show/hide
 
-	smoothScroll.init();
+  function mnuRight() {
+
+    $('.top-nav__burger-btn').click(function() {
+
+      $('.mnu').css('transform', 'translateX(0)');
+
+    });
+
+    $('.mnu__close').click(function() {
+
+      $('.mnu').css('transform', 'translateX(100%)');
+
+    });
+
+    $('.mnu-overlay').click(function() {
+
+      $('.mnu').css('transform', 'translateX(100%)');
+
+    });
+
+  };
+
+  mnuRight();
 
 
-	// Parallax
+  // Smooth scroll
 
-	function myParallax () {
+  smoothScroll.init();
 
-		$(window).scroll(function() {
 
-			if ( window.matchMedia("(min-width: 992px)").matches ) {
+  // Parallax
 
-				var st = $(this).scrollTop();
+  function myParallax () {
 
-				$('.parallax-effect').css({
+    $(window).scroll(function() {
 
-					"transform": "translate(0%, -" + st/20 + "%)"
+      if ( window.matchMedia("(min-width: 992px)").matches ) {
 
-				});
+        var st = $(this).scrollTop();
 
-			} else {
+        $('.parallax-effect').css({
 
-				$('.parallax-effect').css({
+          "transform": "translate(0%, -" + st/20 + "%)"
 
-					"transform": "translate(0%, 0%)"
+        });
 
-				});
+      } else {
 
-			}
+        $('.parallax-effect').css({
 
-		});
+          "transform": "translate(0%, 0%)"
 
-	};
+        });
 
-	myParallax();
+      }
+
+    });
+
+  };
+
+  myParallax();
 
 });

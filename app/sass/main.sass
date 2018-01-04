@@ -6,460 +6,460 @@
 
 
 body
-	background-color: $blue
-	position: relative
+  background-color: $blue
+  position: relative
 
 
 /*----- Menu -----*/
 
 .mnu
-	position: fixed
-	width: 100%
-	height: 100%
-	display: flex
-	justify-content: flex-end
-	z-index: 10
-	transform: translateX(100%)
-	transition: all 0.3s 
+  position: fixed
+  width: 100%
+  height: 100%
+  display: flex
+  justify-content: flex-end
+  z-index: 10
+  transform: translateX(100%)
+  transition: all 0.3s 
 
 .mnu-overlay
-	position: absolute
-	width: 100%
-	height: 100%
-	top: 0
-	left: 0
-	background: rgba(0, 0, 0, 0.6)
-	cursor: pointer
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  background: rgba(0, 0, 0, 0.6)
+  cursor: pointer
 
 .nav-wrap
-	width: 100%
-	max-width: 500px
-	background: $blue
-	display: flex
-	justify-content: center
-	align-items: center
-	position: relative
+  width: 100%
+  max-width: 500px
+  background: $blue
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
 
 .mnu__close
-	width: 70px
-	height: 70px
-	position: absolute
-	top: 50px
-	right: 40px
+  width: 70px
+  height: 70px
+  position: absolute
+  top: 50px
+  right: 40px
 
 .mnu__close-line
-	width: 50px
-	height: 1px
-	background: #fff
-	display: block
-	&:first-child
-		transform: rotate(45deg)
-	&:last-child
-		transform: rotate(-45deg)
+  width: 50px
+  height: 1px
+  background: #fff
+  display: block
+  &:first-child
+    transform: rotate(45deg)
+  &:last-child
+    transform: rotate(-45deg)
 
 .mnu__nav
-	max-width: 500px
+  max-width: 500px
 
 .mnu__list-item
-	position: relative
-	display: flex
-	flex-direction: column
-	align-items: center
+  position: relative
+  display: flex
+  flex-direction: column
+  align-items: center
 
 .mnu__mnu-link
-	padding: 13px 0
-	font-family: $ra
-	font-weight: 300
-	font-size: 35px
-	color: #fff
-	text-transform: uppercase
-	transition: all 0.3s linear
-	border-bottom: 1px solid rgba(255, 255, 255, 0)
-	&:hover
-		border-bottom: 1px solid #fff
-		transition: all 0.3s linear
-	&:focus
-		border-bottom: 1px solid #fff
-		transition: all 0.3s linear
+  padding: 13px 0
+  font-family: $ra
+  font-weight: 300
+  font-size: 35px
+  color: #fff
+  text-transform: uppercase
+  transition: all 0.3s linear
+  border-bottom: 1px solid rgba(255, 255, 255, 0)
+  &:hover
+    border-bottom: 1px solid #fff
+    transition: all 0.3s linear
+  &:focus
+    border-bottom: 1px solid #fff
+    transition: all 0.3s linear
 
 
 /*----- Header -----*/
 
 .header
-	background: url(../img/header-bg.png) no-repeat center 0
-	background-size: cover
-	height: 834px
+  background: url(../img/header-bg.png) no-repeat center 0
+  background-size: cover
+  height: 834px
 
 .header-row
-	justify-content: center
+  justify-content: center
 
 .top-nav
-	display: flex
-	width: 100%
-	position: relative
-	margin-top: 60px
-	
+  display: flex
+  width: 100%
+  position: relative
+  margin-top: 60px
+  
 .top-nav__logo-link
-	display: block
-	width: 228px
-	padding: 0 70px
-	margin: 0 auto
+  display: block
+  width: 228px
+  padding: 0 70px
+  margin: 0 auto
 
 .top-nav__burger-btn
-	width: 50px
-	height: 50px
-	position: absolute
-	right: -42px
+  width: 50px
+  height: 50px
+  position: absolute
+  right: -42px
 
 .top-nav__burger-line
-	width: 34px
-	height: 3px
-	display: block
-	background: #fff
-	margin-left: auto
-	margin-right: auto
-	transition: all 0.3s linear
-	&:first-child
-		margin-bottom: 6px
+  width: 34px
+  height: 3px
+  display: block
+  background: #fff
+  margin-left: auto
+  margin-right: auto
+  transition: all 0.3s linear
+  &:first-child
+    margin-bottom: 6px
 
 .top-nav__burger-line_active
-	transition: all 0.3s linear
-	&:first-child
-		position: relative
-		top: 3px
-		left: 8px
-		transform: rotate(45deg)
-		margin: 0
-	&:last-child
-		transform: rotate(-45deg)
+  transition: all 0.3s linear
+  &:first-child
+    position: relative
+    top: 3px
+    left: 8px
+    transform: rotate(45deg)
+    margin: 0
+  &:last-child
+    transform: rotate(-45deg)
 
 .header__title
-	margin: 207px 0 0 0
+  margin: 207px 0 0 0
 
 
 /*----- Mission -----*/
 
 .mission
-	margin-bottom: 153px
+  margin-bottom: 153px
 
 .block-01
-	top: 130px
-	right: 4px
-	align-items: flex-start
-	
+  top: 130px
+  right: 4px
+  align-items: flex-start
+  
 .block-01__number
-	position: absolute
-	letter-spacing: -11px
+  position: absolute
+  letter-spacing: -11px
 
 .block-01__name
-	position: relative
-	top: 87px
+  position: relative
+  top: 87px
 
 .mission-box
-	width: 100%
-	max-width: 463px
-	position: relative
-	left: 33px
-	display: flex
-	align-items: flex-start
+  width: 100%
+  max-width: 463px
+  position: relative
+  left: 33px
+  display: flex
+  align-items: flex-start
 
 .mission-box__img-wrap
-	display: flex
-	align-items: flex-start
-	background: $blue
-	position: relative
-	top: 185px
-	overflow: hidden
-	box-shadow: 0px 178px 152px 0px rgba(0, 0, 0, 0.45)
+  display: flex
+  align-items: flex-start
+  background: $blue
+  position: relative
+  top: 185px
+  overflow: hidden
+  box-shadow: 0px 178px 152px 0px rgba(0, 0, 0, 0.45)
 
 .mission-box__txt
-	position: absolute
-	top: 186px
-	right: -258px
-	font-size: 14px
-	max-width: 355px
-	margin: 0
+  position: absolute
+  top: 186px
+  right: -258px
+  font-size: 14px
+  max-width: 355px
+  margin: 0
 
 
 /*----- Projects -----*/
 
 .projects
-	height: 940px
-	position: relative
-	background: url(../img/projects.png) no-repeat center -25px
-	background-repeat: no-repeat
-	background-size: cover
+  height: 940px
+  position: relative
+  background: url(../img/projects.png) no-repeat center -25px
+  background-repeat: no-repeat
+  background-size: cover
 
 .projects__letter-r
-	top: 345px
-	left: 109px
+  top: 345px
+  left: 109px
 
 .project-logos
-	z-index: 5
-	position: relative
-	top: 198px
-	left: 16px
+  z-index: 5
+  position: relative
+  top: 198px
+  left: 16px
 
 .project-logos__list
-	width: 100%
-	max-width: 600px
-	display: flex
-	flex-direction: row
-	flex-wrap: wrap
-	align-items: center
-	justify-content: space-between
+  width: 100%
+  max-width: 600px
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
 
 .project-logos__item
-	margin-bottom: 72px
-	&:nth-child(1)
-		width: 143px
-	&:nth-child(2)
-		width: 180px
-	&:nth-child(3)
-		width: 153px
-	&:nth-child(4)
-		width: 125px
-	&:nth-child(5)
-		width: 167px
-	&:nth-child(6)
-		width: 160px
+  margin-bottom: 72px
+  &:nth-child(1)
+    width: 143px
+  &:nth-child(2)
+    width: 180px
+  &:nth-child(3)
+    width: 153px
+  &:nth-child(4)
+    width: 125px
+  &:nth-child(5)
+    width: 167px
+  &:nth-child(6)
+    width: 160px
 
 .block-02
-	top: 40px
-	left: 91px
-	align-items: flex-start
+  top: 40px
+  left: 91px
+  align-items: flex-start
 
 .block-02__name
-	transform: rotate(-90deg) translateX(-90px)	
+  transform: rotate(-90deg) translateX(-90px)	
 
 /*----- Team -----*/
 
 .team
-	margin-bottom: 318px
+  margin-bottom: 318px
 
 .persons
-	width: 100%
-	display: flex
-	flex-wrap: wrap
-	flex-direction: row
-	justify-content: space-between
+  width: 100%
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+  justify-content: space-between
 
 .block-03
-	top: 70px
-	left: 28px
-	justify-content: initial
-	align-items: flex-start
+  top: 70px
+  left: 28px
+  justify-content: initial
+  align-items: flex-start
 
 .block-03__number
-	left: -69px
-	top: -87px
+  left: -69px
+  top: -87px
 
 .block-03__name
-	position: relative
-	
+  position: relative
+  
 .person-item
-	position: relative
-	margin-bottom: 91px
+  position: relative
+  margin-bottom: 91px
 
 .george
-	max-width: 463px
-	width: 100%
-	display: flex
-	flex-wrap: wrap
-	align-self: flex-end
-	margin-left: 284px
+  max-width: 463px
+  width: 100%
+  display: flex
+  flex-wrap: wrap
+  align-self: flex-end
+  margin-left: 284px
 
 .person-photo
-	display: flex
-	align-items: flex-start
-	position: relative
-	background: $blue
-	box-shadow: 0 178px 152px 0 rgba(0,0,0,.45)
+  display: flex
+  align-items: flex-start
+  position: relative
+  background: $blue
+  box-shadow: 0 178px 152px 0 rgba(0,0,0,.45)
 
 .person-photo_george
-	top: 628px
+  top: 628px
 
 .person-photo_kenneth
-	top: 420px
+  top: 420px
 
 .person-photo_richard
-	top: 418px
+  top: 418px
 
 .person-photo_judith
-	top: 495px
+  top: 495px
 
 .person-photo_donald
-	top: 506px
+  top: 506px
 
 .person-txt_01
-	position: absolute
-	top: 220px
-	left: -120px
+  position: absolute
+  top: 220px
+  left: -120px
 
 .person-txt__title
-	font-family: $ra
-	font-weight: 300
-	font-size: 27px
-	color: #fff
-	position: relative
-	margin: 0
-	padding: 20px 0 0 0
-	&:before
-		content: ''
-		position: absolute
-		top: 0
-		left: 0
-		width: 40px
-		height: 3px
-		background: #fff
+  font-family: $ra
+  font-weight: 300
+  font-size: 27px
+  color: #fff
+  position: relative
+  margin: 0
+  padding: 20px 0 0 0
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 40px
+    height: 3px
+    background: #fff
 
 .person-txt__position
-	font-family: $ra
-	font-weight: 300
-	font-size: 16px
-	color: rgba(255, 255, 255, 0.5)
-	margin: 8px 0 15px 0
+  font-family: $ra
+  font-weight: 300
+  font-size: 16px
+  color: rgba(255, 255, 255, 0.5)
+  margin: 8px 0 15px 0
 
 .person-txt__txt
-	font-family: $ra
-	font-weight: 300
-	font-size: 15px
-	color: #fff
-	width: 100%
-	max-width: 330px
-	margin: 0
+  font-family: $ra
+  font-weight: 300
+  font-size: 15px
+  color: #fff
+  width: 100%
+  max-width: 330px
+  margin: 0
 
 .kenneth
-	width: 100%
-	max-width: 283px
-	right: 11px
+  width: 100%
+  max-width: 283px
+  right: 11px
 
 .person-txt_02
-	position: absolute
-	top: 150px
-	right: -189px
+  position: absolute
+  top: 150px
+  right: -189px
 
 .richard
-	width: 100%
-	max-width: 283px
-	display: flex
-	flex-wrap: wrap
-	align-self: flex-end
-	top: 94px
-	right: 5px
+  width: 100%
+  max-width: 283px
+  display: flex
+  flex-wrap: wrap
+  align-self: flex-end
+  top: 94px
+  right: 5px
 
 .person-txt_03
-	position: absolute
-	top: 172px
-	left: -71px
+  position: absolute
+  top: 172px
+  left: -71px
 
 .judith
-	width: 100%
-	max-width: 283px
-	top: 27px
-	left: 78px
+  width: 100%
+  max-width: 283px
+  top: 27px
+  left: 78px
 
 .person-txt_04
-	position: absolute
-	top: 172px
-	left: -71px
+  position: absolute
+  top: 172px
+  left: -71px
 
 .donald
-	width: 100%
-	max-width: 283px
-	top: 186px
-	right: 63px
+  width: 100%
+  max-width: 283px
+  top: 186px
+  right: 63px
 
 .person-txt_05
-	position: absolute
-	top: 173px
-	right: -131px
+  position: absolute
+  top: 173px
+  right: -131px
 
 
 /*----- Event -----*/
 
 .event
-	position: relative
-	background: url(../img/event.png) no-repeat center
-	background-size: cover
-	height: 858px
+  position: relative
+  background: url(../img/event.png) no-repeat center
+  background-size: cover
+  height: 858px
 
 .event-row
-	flex-direction: column
+  flex-direction: column
 
 .event__letter-e
-	top: 1111px
-	right: 171px
+  top: 1111px
+  right: 171px
 
 .block-04__number
-	left: 50%
-	transform: translateX(-50%)
+  left: 50%
+  transform: translateX(-50%)
 
 .event-content
-	margin-left: 48px
-	position: relative
+  margin-left: 48px
+  position: relative
 
 .event__title
-	font-family: $ra
-	font-weight: 300
-	font-size: 49px
-	color: #fff
-	margin: 190px 0 26px 0
+  font-family: $ra
+  font-weight: 300
+  font-size: 49px
+  color: #fff
+  margin: 190px 0 26px 0
 
 .event__txt
-	font-family: $ra
-	font-weight: 300
-	font-size: 19px
-	color: #fff
-	width: 100%
-	max-width: 500px
+  font-family: $ra
+  font-weight: 300
+  font-size: 19px
+  color: #fff
+  width: 100%
+  max-width: 500px
 
 /*----- Footer -----*/
 
 .footer
-	position: absolute
-	bottom: 48px
-	left: 0
-	right: 0
+  position: absolute
+  bottom: 48px
+  left: 0
+  right: 0
 
 .footer-row
-	flex-direction: column
-	align-items: center
+  flex-direction: column
+  align-items: center
 
 .footer__logo-link
-	width: 230px
-	padding: 0 70px
-	opacity: 0.2
+  width: 230px
+  padding: 0 70px
+  opacity: 0.2
 
 .footer__list-item
-	margin-top: 30px
-	margin-bottom: 20px
-	width: 274px
-	display: flex
-	justify-content: space-between
+  margin-top: 30px
+  margin-bottom: 20px
+  width: 274px
+  display: flex
+  justify-content: space-between
 
 .footer__nav-link
-	font-family: $ra
-	font-weight: 300
-	font-size: 15px
-	color: rgba(255, 255, 255, 0.2)
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2)
-	transition: all 0.3s linear
-	&:hover
-		color: #fff
-		border-bottom: 2px solid #fff
-		transition: all 0.3s linear
-	&:focus
-		color: #fff
-		border-bottom: 2px solid #fff
-		transition: all 0.3s linear
+  font-family: $ra
+  font-weight: 300
+  font-size: 15px
+  color: rgba(255, 255, 255, 0.2)
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2)
+  transition: all 0.3s linear
+  &:hover
+    color: #fff
+    border-bottom: 2px solid #fff
+    transition: all 0.3s linear
+  &:focus
+    color: #fff
+    border-bottom: 2px solid #fff
+    transition: all 0.3s linear
 
 .footer__copyright
-	font-family: $ra
-	font-weight: 300
-	font-size: 15px
-	color: rgba(255, 255, 255, 0.2)
-	margin: 0
+  font-family: $ra
+  font-weight: 300
+  font-size: 15px
+  color: rgba(255, 255, 255, 0.2)
+  margin: 0
 
 
 
